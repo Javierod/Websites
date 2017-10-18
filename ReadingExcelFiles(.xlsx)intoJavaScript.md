@@ -1,4 +1,7 @@
+JavaScript
+---
 ```javascript
+//Created by Javier Rodriguez. 10/18/2017
 let url = ".xlsx";					//Path to file.
 let req = new XMLHttpRequest();				//Calling http protocol
 req.open("GET", url, true);				//Calling file.
@@ -30,3 +33,37 @@ console.log(dataArray);   	                                              //Sendi
 req.send()
   ```
 code extracted from [YouTube Video](https://www.youtube.com/watch?v=9hVO9-sSOVM)
+
+HTML file
+---
+```html
+<!-- Created by Javier Rodriguez. 10.18.2017 -->
+
+<!-- HTML Website -->
+<!DOCTYPE html> 
+<!-- HTML Structure -->
+<html>
+ 	<!-- HTML head -->
+	<head>
+		<!-- ASCII code for web page -->
+		<meta charset="utf-8">
+		
+		<!-- Library to read excel file. -->
+		<script lang="javascript" src="xlsx.full.min.js"></script> 
+		
+		<!-- Source Code Script. -->
+		<script src=""></script>
+		
+		<!-- Web page title -->
+		<title>Reading Excel File Into JavaScript</title>
+	</head>
+
+	<!-- HTML body -->
+	<body>
+	</body>
+</html>
+```
+
+Extra information.
+---
+For security reasons, we cannot access any data in a computer from a website. Hence, a server must be initiated or everything should be run from a server.
