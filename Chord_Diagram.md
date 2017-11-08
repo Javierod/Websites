@@ -1,10 +1,13 @@
-#Chord Diagram
+Chord Diagram
+---
 Chord Diagram to represent a relation between a set of data.
 This diagram however is not interactive.
 
 [Simple Chord Diagram](SimpleChordDiagram.jpg "Simple Chord Diagram")
 
-##HTML file.
+HTML file.
+---
+---
 ```html
 <!-- File type -->
 <!DOCTYPE html>
@@ -38,7 +41,9 @@ This diagram however is not interactive.
 </html>
 ```
 
-##JavaScript file.
+JavaScript file.
+---
+---
 ```javascript
 /* Created by Javier Rodriguez on 09/15/2017					
    Louisiana State University - EJ Ourso College of Business*/
